@@ -1,10 +1,12 @@
 
- bn{
+ h2{
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
-  body{ background-color: rgb(73, 109, 79);
+  .tito{
+  text-align:center;}
+  body{ background-color: rgb(137, 219, 150);
     margin: 0;
     padding: 0;
   }
@@ -26,7 +28,7 @@
     
     .nav-list li a {
         text-decoration: none;
-        color: #d11919;
+        color: #07fcc7;
         font-weight: bold;
     }
     
@@ -36,10 +38,15 @@
     footer{text-align:center;
        
 }
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 img{height:400;
      width:500;
-   padding: 10;
-}
+   
+   }
 
 
 
