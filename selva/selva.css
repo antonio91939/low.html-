@@ -5,11 +5,18 @@ h2{
   font-style: normal;
 }
 
+  
+
+
   .tito{
-  text-align:center;}
+  text-align:center;
+
+
+}
   body{ background-color: rgb(137, 219, 150);
     margin: 0;
     padding: 0;
+   
   }
   .navbar {
     background-color: #333;
@@ -34,8 +41,9 @@ h2{
     }
     
     .nav-list li a:hover {
-        color: orange/* Altere esta cor para a cor desejada ao passar o mouse */
-    }
+        color: orange/* Altere esta cor para a cor desejada ao passar o mouse */;
+    transition:0.3s all;
+      }
     footer{ display: flex;
       flex-direction: row;
       justify-content: center;;
@@ -51,20 +59,16 @@ h2{
 img{height:400;
      width:500;
    }
+   .tabela {
+   height: 10px;
+    border:  solid rgb(140 140 140);
    
-  .tabela{
-     border-collapse: collapse;
-     border: 2px solid rgb(235, 9, 9);
-     font-family: sans-serif;
-     font-size: 0.8rem;
-     letter-spacing: 1px;
-   }
-   
-  tr:nth-of-type(even) {
-    background-color: #eee;
   }
+  
+
    
    
+  
    
 
 
