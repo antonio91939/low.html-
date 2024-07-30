@@ -3,8 +3,14 @@ h2 {
   font-optical-sizing: auto;
   font-weight: bold;
   font-style: normal;
+  }
+.textorelativo a:hover {
+  position: relative;
+  height: 50px;
+  top: -5px;
+  
+  
 }
-
 
 
 
@@ -43,18 +49,27 @@ body {
   font-weight: bold;
 }
 
-.nav-list li a:hover {
+.nav-list li a:hover    {
   color: orange
-    /* Altere esta cor para a cor desejada ao passar o mouse */
-  ;
+    /* Altere esta cor para a cor desejada ao passar o mouse */ ;
   transition: 0.3s all;
+  position: relative;
+  height: 50px;
+  top: -5px;
+}
+.barraLateral h2:hover  {
+    
+  position: relative;
+  height: 50px;
+  top: -3px;
+  transition: 0.5s all;
 }
 
 footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  ;
+  
 
 
 
