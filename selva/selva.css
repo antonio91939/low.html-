@@ -85,27 +85,22 @@ img{
    height: 400;
   width: 500;
   border: 2px solid #07fcc7; 
-    
- 
-  border-radius: 5px; 
+    border-radius: 5px; 
   margin: 10px; 
   box-shadow: 2px 2px 5px rgba(43, 174, 184, 0.836);
 }
 .barraLateral{
-  position: relative;
-  top:-415;
+ 
+  position: relative; 
   border-radius: 5px;
-  left: 385;
-  height: 100%;
-  width: 100%
+  
   transition: 0.9s all;
   background-color:rgba(9, 182, 144, 0.418);
   display: flex;
   align-items: center;
-  flex-direction: column;
   justify-content: center;
   opacity:0;
-   
+  
 }
 .barraLateral:hover{
   opacity: 1;
