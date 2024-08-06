@@ -52,7 +52,7 @@ body {
 .nav-list li a:hover    {
   color: orange
     /* Altere esta cor para a cor desejada ao passar o mouse */ ;
-  transition: 0.3s all;
+  transition: 0.5s all;
   position: relative;
   height: 50px;
   top: -5px;
@@ -62,7 +62,7 @@ body {
   position: relative;
   height: 50px;
   top: -3px;
-  transition: 0.5s all;
+  transition: 0.9s all;
 }
 
 footer {
@@ -89,5 +89,26 @@ img{
  
   border-radius: 5px; 
   margin: 10px; 
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 5px rgba(43, 174, 184, 0.836);
 }
+.barraLateral{
+  position: relative;
+  top:-415;
+  border-radius: 5px;
+  left: 385;
+  height: 100%;
+  width: 100%
+  transition: 0.9s all;
+  background-color:rgba(9, 182, 144, 0.418);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  opacity:0;
+   
+}
+.barraLateral:hover{
+  opacity: 1;
+  
+}
+ 
