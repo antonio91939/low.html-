@@ -4,16 +4,6 @@ h2 {
   font-weight: bold;
   font-style: normal;
   }
-.textorelativo a:hover {
-  position: relative;
-  height: 50px;
-  top: -5px;
-  
-  
-}
-
-
-
 .tito {
   text-align: center;
 
@@ -57,11 +47,11 @@ body {
   height: 50px;
   top: -5px;
 }
-.barraLateral h2:hover  {
+.textorelativo h2:hover  {
     
   position: relative;
   height: 50px;
-  top: -3px;
+  opacity: 1;
   transition: 0.9s all;
 }
 
@@ -79,32 +69,30 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  
+ 
 }
 img{
-   height: 400;
-  width: 500;
+  height: 400px;
+  width: 500px;
   border: 2px solid #07fcc7; 
-    
- 
-  border-radius: 5px; 
+    border-radius: 5px; 
   margin: 10px; 
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 5px rgba(43, 174, 184, 0.836);
 }
-.barraLateral{
-  position: relative;
-  height: 50px;
-  top: 0;
-  left: 0;
+.textorelativo{
+background-color: #0da58433;
+  position: relative; 
+  border-radius: 5px;
   transition: 0.9s all;
-  background:rgba(0, 0, 0, 0.6);
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
   opacity:0;
+ top:-435;  
+display: flex;
+ justify-content: center;
+ align-items: center;
+flex-direction: column;
+
 }
-.barraLateral:hover{
-  opacity: 1
-}
+.textorelativo:hover{
+  opacity: 1;
  
+}
