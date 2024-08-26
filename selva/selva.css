@@ -1,12 +1,18 @@
-h2 {
+.abc{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 500px;
+  align-items: center;
+  text-align: center;
+}
+  
+.tito {
+  text-align: center;
   font-family: "Playwrite SK", cursive;
   font-optical-sizing: auto;
   font-weight: bold;
   font-style: normal;
-  }
-.tito {
-  text-align: center;
-
 
 }
 
@@ -84,15 +90,11 @@ img{
   position: relative; 
   border-radius: 5px;
   transition: 0.9s all;
-  background-color:rgba(9, 182, 144, 0.418);
-  display: flex;
   opacity:0;
- top: -435;
- justify-content: center;
- height: 405;
- 
-}
-.textorelativo:hover{
+  display: flex;
+  justify-content: center;
+}  
+ .textorelativo:hover{
   opacity: 1;
   
 }
