@@ -1,10 +1,16 @@
 .abc{
-  display: flex;
+   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 500px;
-  align-items: center;
   text-align: center;
+}
+.central{ display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+h4{
+  width: 900px;
 }
   
 .tito {
@@ -65,10 +71,8 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  
-
-
-
+  background-color: #9191917e;
+  height: 160px;
 }
 
 .images {
