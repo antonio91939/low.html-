@@ -1,50 +1,51 @@
-
-
-
-button{
+button {
   display: flex;
   flex-direction: row;
   justify-content: center;
   background-color: #07f0fc;
-  border-radius:  100px; 
- width: 50px;
+  border-radius: 100px;
+  width: 50px;
 }
-.formula{
+
+.formula {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   width: 100%;
- 
+
   [type="text"] {
-  
+
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #e91313;
     border-radius: 100px;
-   border-color: rgb(254, 4, 4);
-  }
-   
-    
-  
+    border-color: rgb(254, 4, 4);
   }
 
 
-.abc{
-   display: flex;
+
+}
+
+
+.abc {
+  display: flex;
   flex-direction: row;
   justify-content: center;
   text-align: center;
 }
-.central{ display: flex;
+
+.central {
+  display: flex;
   flex-direction: row;
   justify-content: center;
 
 }
-h4{
+
+h4 {
   width: 900px;
 }
-  
+
 .tito {
   text-align: center;
   font-family: "Playwrite SK", cursive;
@@ -83,16 +84,18 @@ body {
   font-weight: bold;
 }
 
-.nav-list li a:hover    {
+.nav-list li a:hover {
   color: orange
-    /* Altere esta cor para a cor desejada ao passar o mouse */ ;
+    /* Altere esta cor para a cor desejada ao passar o mouse */
+  ;
   transition: 0.5s all;
   position: relative;
   height: 50px;
   top: -5px;
 }
-.textorelativo h2:hover  {
-    
+
+.textorelativo h2:hover {
+
   position: relative;
   height: 50px;
   opacity: 1;
@@ -111,26 +114,29 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  
+
 }
-img{
-   height: 400;
+
+img {
+  height: 400;
   width: 500;
-  border: 2px solid #07fcc7; 
-    border-radius: 5px; 
-  margin: 10px; 
+  border: 2px solid #07fcc7;
+  border-radius: 5px;
+  margin: 10px;
   box-shadow: 2px 2px 5px rgba(43, 174, 184, 0.836);
 }
-.textorelativo{
- 
-  position: relative; 
+
+.textorelativo {
+
+  position: relative;
   border-radius: 5px;
   transition: 0.9s all;
-  opacity:0;
+  opacity: 0;
   display: flex;
   justify-content: center;
-}  
- .textorelativo:hover{
+}
+
+.textorelativo:hover {
   opacity: 1;
-  
+
 }
