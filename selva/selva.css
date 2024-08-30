@@ -1,3 +1,35 @@
+
+
+
+button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #07fcc7;
+  border-radius:  100px; 
+ width: 50px;
+}
+.formula{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+ 
+  [type="text"] {
+  
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+   border-color: rgb(4, 254, 170);
+  }
+   
+    
+  
+  }
+
+
 .abc{
    display: flex;
   flex-direction: row;
